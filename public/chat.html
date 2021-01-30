@@ -18,9 +18,10 @@
         <div class="container">
             <div class="jumbotron">
                 <div class="container border mb-2" id="chat" style="background-color:white; height: 400px;">
-                    nada ainda
+                    <ul id='messages_list'>
+                    </ul>
                 </div>
-                <form class="form-inline d-flex ">
+                <form id='send_message' class="form-inline d-flex ">
                     <div class="form-group mr-1 mb-2 flex-fill">
                         <label for="message" class="sr-only"></label>
                         <input type="text" class="form-control" name="message" id="message" placeholder="say something...">
@@ -30,6 +31,7 @@
             </div>
         </div>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.6/qs.min.js" integrity="sha512-3TmPrquYLaAsUmZKXRARTDC5siWhLAdBVqNo4dWpDABBtLU62AaoTaQJEvjxjExcZYurO6i1dnK85k8pPIBlRg==" crossorigin="anonymous"></script>
         <script src="/socket.io/socket.io.js"></script>
         <script src="js/chat.js"></script>
     </body>
