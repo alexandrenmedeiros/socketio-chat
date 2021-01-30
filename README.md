@@ -10,3 +10,8 @@ Uma aplicação simples de chat feita com um servidor [node](https://nodejs.org/
     - [index.html](./public/index.html) : Página inicial, onde é inserido o username.
     - [chat.html](./public/chat.html) : Página da aplicação de chat.
         - [chat.js](./public/js/chat.js): Javascript da aplicação de chat.
+
+## Imagens de exemplo da Aplicação
+
+![home page image](./example_imgs/home.png)
+![chat page image](./example_imgs/chat_app.png)
