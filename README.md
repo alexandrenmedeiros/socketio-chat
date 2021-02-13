@@ -6,7 +6,7 @@ Uma aplicação simples de chat feita com um servidor [node](https://nodejs.org/
 
 - [package.json](./package.json) : Arquivo sobre o projeto feito através do gerenciador de pacotes npm.
 - [server.js](./server.js) : Arquivo do servidor node.
-- [publick](./public) : Pasta contendo arquivos da parte front end.
+- [public](./public) : Pasta contendo arquivos da parte front end.
     - [index.html](./public/index.html) : Página inicial, onde é inserido o username.
     - [chat.html](./public/chat.html) : Página da aplicação de chat.
         - [chat.js](./public/js/chat.js): Javascript da aplicação de chat.
